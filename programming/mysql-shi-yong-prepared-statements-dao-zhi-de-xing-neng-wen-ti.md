@@ -22,7 +22,7 @@ description: 2023年6月15日
 User::query()->whereIn('name', ['Robin', 'John']);
 ```
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. 这段语句会被转变 Prepared Statements 提交给 Mysql
 
@@ -57,7 +57,7 @@ PDO::ATTR_EMULATE_PREPARES // true or false
 
 * 直接查询 where in 6000 个参数的情况，耗时 2s 左右
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 生成 Prepared Statement 后再去查询，耗时 30s 左右
 

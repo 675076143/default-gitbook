@@ -74,7 +74,7 @@ Profiling with XHPROF
 
 #### Disable DbQueryExecutedListener: 10.24s
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ```php
 <?php
@@ -95,7 +95,7 @@ class DbQueryExecutedListener implements ListenerInterface
 
 `Arr::flatten` poor performance
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```php
 $data = json_decode(file_get_contents('orders.json'), true);
@@ -130,7 +130,7 @@ $this->info('DB Cost: ' . microtime(true) - $start);
 return;
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Fucking why?
 

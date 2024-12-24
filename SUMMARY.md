@@ -5,6 +5,7 @@
 ## programming
 
 * [Laravel Schedule 优雅退出实现](programming/laravel-schedule-you-ya-tui-chu-shi-xian.md)
+* [Redis出口流量分析与压缩处理](programming/redis-chu-kou-liu-liang-fen-xi-yu-ya-suo-chu-li.md)
 * [如何加载动态代码](programming/ru-he-jia-zai-dong-tai-dai-ma.md)
 * [Php-fpm 多pool实践](programming/phpfpm-duo-pool-shi-jian.md)
 * [Laravel Cache Tag 导致的大Key问题](programming/laravel-cache-tag-dao-zhi-de-da-key-wen-ti.md)
