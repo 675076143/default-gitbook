@@ -22,7 +22,9 @@ description: '2024-12-05'
 
 这个流量主要是因为每次请求都需要完整读取laravel-permission
 
-TODO:: 引用文档
+{% content-ref url="laravelpermission-huan-cun-dao-zhi-de-redis-dai-kuan-zhan-yong-wen-ti.md" %}
+[laravelpermission-huan-cun-dao-zhi-de-redis-dai-kuan-zhan-yong-wen-ti.md](laravelpermission-huan-cun-dao-zhi-de-redis-dai-kuan-zhan-yong-wen-ti.md)
+{% endcontent-ref %}
 
 这个大key虽然已经过了一轮处理，但是随着系统增加的权限越来越多还是无法避免。。。截止到当前，系统总权限数量有**1031**个，占用**1.65mb**, 妥妥的大key，可恨的是，几乎每个请求，都需要读取这个缓存。
 
