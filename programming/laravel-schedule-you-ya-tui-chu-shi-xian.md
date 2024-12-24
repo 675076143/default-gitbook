@@ -1,3 +1,7 @@
+---
+description: '2024-12-20'
+---
+
 # Laravel Schedule 优雅退出实现
 
 ### 问题背景
@@ -71,7 +75,7 @@ done
 
 验证
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 子任务的优雅退出
 
